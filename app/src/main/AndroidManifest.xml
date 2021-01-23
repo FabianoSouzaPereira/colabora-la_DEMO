@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.fabianospdev.android.astrophoto">
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.fabianospdev.android.colabora_la">
 
     <uses-feature
         android:name="android.hardware.camera.any"
         android:required="true" /> <!-- <uses-permission android:name="android.permission.hardware.camera2.full"/> -->
     <uses-permission android:name="android.permission.CAMERA" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -18,20 +20,21 @@
     <uses-permission android:name="android.permission.READ_SMS" />
 
     <application
+
         android:requestLegacyExternalStorage="true"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".NotificationActivity" />
-        <activity android:name=".DashboardActivity" />
+        android:theme="@style/Theme.Colaborala">
+        <activity android:name="com.fabianospdev.android.colabora_la.NotificationActivity" />
+        <activity android:name="com.fabianospdev.android.colabora_la.DashboardActivity" />
         <activity
-            android:name=".SettingsActivity"
+            android:name="com.fabianospdev.android.colabora_la.SettingsActivity"
             android:label="@string/title_activity_settings" />
-        <activity android:name=".CameraActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name="com.fabianospdev.android.colabora_la.CameraActivity" />
+        <activity android:name="com.fabianospdev.android.colabora_la.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
