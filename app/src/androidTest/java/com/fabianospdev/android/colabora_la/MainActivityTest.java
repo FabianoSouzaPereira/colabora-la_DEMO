@@ -47,7 +47,7 @@ public class MainActivityTest {
       e.printStackTrace();
     }
 
-    ViewInteraction bottomNavigationItemView = onView( allOf( withId( R.id.camera ), withContentDescription( "Notificações" ), childAtPosition( childAtPosition( withId( R.id.bottom_navigation ), 0 ), 2 ), isDisplayed() ) );
+    ViewInteraction bottomNavigationItemView = onView( allOf( withId( R.id.camera ), withContentDescription( "Camera" ), childAtPosition( childAtPosition( withId( R.id.bottom_navigation ), 0 ), 2 ), isDisplayed() ) );
     bottomNavigationItemView.perform( click() );
 
     // Added a sleep statement to match the app's execution delay.

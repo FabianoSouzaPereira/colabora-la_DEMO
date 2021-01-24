@@ -30,27 +30,20 @@ public class NotificationActivity extends AppCompatActivity {
       @Override
       public boolean onNavigationItemSelected( @NonNull MenuItem menuItem ) {
 
-        switch (menuItem.getItemId()){
-
-        case R.id.home:
-          startActivity(new Intent(getApplicationContext(),MainActivity.class));
-          overridePendingTransition( 0,0 );
+        int itemId = menuItem.getItemId ( );
+        if ( itemId == R.id.home ) {
+          startActivity ( new Intent ( getApplicationContext ( ) , MainActivity.class ) );
+          overridePendingTransition ( 0 , 0 );
           return true;
-
-        case R.id.dashboard:
-          startActivity(new Intent(getApplicationContext(),DashboardActivity.class ));
-          overridePendingTransition( 0,0 );
+        } else if ( itemId == R.id.dashboard ) {
+          startActivity ( new Intent ( getApplicationContext ( ) , DashboardActivity.class ) );
+          overridePendingTransition ( 0 , 0 );
           return true;
-
-        case R.id.camera:
-          startActivity(new Intent(getApplicationContext(), CameraActivity.class));
-          overridePendingTransition( 0,0 );
+        } else if ( itemId == R.id.camera ) {
+          startActivity ( new Intent ( getApplicationContext ( ) , CameraActivity.class ) );
+          overridePendingTransition ( 0 , 0 );
           return true;
-
-        case R.id.notifications:
-          return true;
-        }
-        return false;
+        } else return itemId == R.id.notifications;
       }
 
     } );
