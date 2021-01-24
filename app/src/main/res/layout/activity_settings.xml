@@ -61,8 +61,10 @@
                     android:id="@+id/mnViewholder"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="right"
-                    android:background="#FFFFFF"
+                    android:layout_gravity="end"
+                    android:layout_margin="15dp"
+                    android:background="#ffffff"
+                    android:contentDescription="@string/submenu"
                     card_view:srcCompat="@drawable/ic_baseline_more_vert_24" />
             </FrameLayout>
         </LinearLayout>

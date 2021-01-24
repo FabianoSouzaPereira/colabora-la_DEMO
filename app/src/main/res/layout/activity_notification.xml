@@ -18,6 +18,8 @@
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
+            android:backgroundTint="#FFFFFF"
+            android:backgroundTintMode="src_over"
             app:subtitleTextColor="@color/white"
             app:titleTextColor="@color/white" />
 
@@ -36,7 +38,7 @@
             android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="NOTIFICATION" />
+            android:text="@string/notification" />
     </LinearLayout>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView

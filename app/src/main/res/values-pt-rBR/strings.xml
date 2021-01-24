@@ -57,5 +57,6 @@
     <string name="image">image</string>
     <string name="home">Home</string>
     <string name="notifications">notifications</string>
+    <string name="submenu">subMenu</string>
 
 </resources>
