@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">AstroPhoto</string>
+    <string name="app_name">Colabora-la</string>
     <string name="action_settings">Configuração</string>
     <string name="action_camera">Camera</string>
     <string name="action_files">Arquivos</string>
@@ -51,4 +51,12 @@
     <string name="path">Salvo: </string>
     <string name="geolocation">Localização: </string>
     <string name="dashboard">DashBoard</string>
+    <string name="title_activity_settings">settings</string>
+    <string name="capture">Capture</string>
+    <string name="notification">Notification</string>
+    <string name="image">image</string>
+    <string name="home">Home</string>
+    <string name="notifications">notifications</string>
+    <string name="submenu">subMenu</string>
+
 </resources>

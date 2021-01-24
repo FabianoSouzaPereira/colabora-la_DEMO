@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "298119028072",
+    "project_id": "colabora-la",
+    "storage_bucket": "colabora-la.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:298119028072:android:332c3505708a57c1790add",
+        "android_client_info": {
+          "package_name": "com.colaborala"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "298119028072-q2mujd5pmob39oaiucrsjut18np63fq1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAltDrL8ajzUG8ynCiPBXFtjx_xB7dzmw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "298119028072-q2mujd5pmob39oaiucrsjut18np63fq1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:298119028072:android:2fcf2ed9d891166f790add",
+        "android_client_info": {
+          "package_name": "com.fabianospdev.android.colabora_la"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "298119028072-q2mujd5pmob39oaiucrsjut18np63fq1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAltDrL8ajzUG8ynCiPBXFtjx_xB7dzmw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "298119028072-q2mujd5pmob39oaiucrsjut18np63fq1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
