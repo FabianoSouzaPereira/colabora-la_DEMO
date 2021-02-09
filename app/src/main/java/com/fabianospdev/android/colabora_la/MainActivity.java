@@ -196,9 +196,11 @@ public class MainActivity extends AppCompatActivity {
                     feeds.add(f);
                 }
 
+
                 layoutManager = new LinearLayoutManager (context);
                 feedsRecyclerView.setLayoutManager(layoutManager);
                 mAdapter = new RecyclerAdapter (feeds);
+                mAdapter.setHasStableIds(true);
 
                 /* Open Bottom sheet with item selected form recyclerview */
                 mAdapter.setOnClickListener(new View.OnClickListener() {
@@ -238,7 +240,8 @@ public class MainActivity extends AppCompatActivity {
                         return false;
                     }
                 });
-                mAdapter.setHasStableIds(true);
+
+
                 mAdapter.notifyDataSetChanged ();
                 feedsRecyclerView.setAdapter(mAdapter);
             }

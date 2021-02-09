@@ -42,6 +42,7 @@
                         android:layout_width="60dp"
                         android:layout_height="60dp"
                         android:background="@drawable/roundedprofile"
+                        android:foreground="@mipmap/ic_launcher"
                         card_view:srcCompat="@android:drawable/ic_menu_gallery" />
 
                 </androidx.cardview.widget.CardView>
@@ -98,7 +99,7 @@
                 android:paddingStart="8dp"
                 android:paddingEnd="8dp"
                 android:singleLine="false"
-                android:text="Os downloads continuam em segundo plano mesmo após mudanças no ciclo de vida de atividades (como apresentar uma caixa de diálogo ou girar a tela). Qualquer listener conectado permanecerá conectado. Isso poderá causar resultados inesperados se eles forem chamados após a interrupção da atividade.  Esse problema pode ser solucionado ao inscrever seus listeners com um escopo de atividade para cancelar o registro automaticamente quando a atividade for interrompida. Em seguida, use o método getActiveDownloadTasks quando a atividade for reiniciada para receber as tarefas de download que ainda estiverem em andamento ou que tiverem sido concluídas recentemente.  O exemplo abaixo demonstra isso e também mostra como manter o caminho de referência de armazenamento utilizado."
+                android:text="Este problema já aconteceu antes aqui na cidade. Por que o departametneo de infra estrutura não antecipa estes problemas ? Espero que Arrumem logo isso aqui."
                 android:textAlignment="viewStart"
                 android:textStyle="normal|bold" />
 
@@ -115,6 +116,7 @@
                     android:layout_marginTop="10dp"
                     android:layout_marginEnd="10dp"
                     android:layout_marginBottom="10dp"
+                    android:foreground="@drawable/ic_baseline_camera_front_24"
                     android:padding="10dp"
                     tools:srcCompat="@drawable/ic_baseline_notifications_24" />
 
@@ -127,7 +129,7 @@
                     android:width="250dp"
                     android:lines="3"
                     android:maxLength="90"
-                    android:text="Pessoas que curtiaram sua postagems Pessoas que curtiaramo"
+                    android:text="Luciano Costa, Luica Meirelles, Vitória Regina, Anna Clara,Isababel Fontoura"
                     android:textSize="12sp"
                     android:textStyle="bold" />
 
@@ -200,9 +202,8 @@
                     android:layout_marginTop="10dp"
                     android:layout_marginEnd="5dp"
                     android:layout_marginBottom="10dp"
-                    android:background="@drawable/roundimage"
                     android:visibility="visible"
-                    card_view:srcCompat="@drawable/ic_baseline_sentiment_very_satisfied_24" />
+                    card_view:srcCompat="@drawable/ic_baseline_thumb_up_24" />
 
                 <ImageView
                     android:id="@+id/btnReactionSentiment_satisfied"
@@ -272,7 +273,7 @@
                 android:text="idCom"
                 android:textStyle="bold"
                 android:visibility="gone"
-                tools:visibility="visible" />
+                tools:visibility="gone" />
         </LinearLayout>
     </LinearLayout>
 </androidx.cardview.widget.CardView>
